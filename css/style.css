@@ -3,3 +3,27 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+
+/*BACKGROUNDS COLORS*/
+
+
+.bg-blue {
+	background-color: blue;
+}
+
+.bg-red {
+	background-color: red;
+}
+
+
+
+/*heights*/
+
+.container-height {
+	height: 100px;
+}
+
+.col-height {
+	height: 100%;
+}
