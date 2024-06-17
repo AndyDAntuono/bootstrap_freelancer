@@ -85,3 +85,23 @@ ul li {
 .portfolio-content img{
 	border-radius: 25px;
 }
+
+.download {
+	border: 1px solid;
+	border-radius: 5px;
+	width: 125px;
+}
+
+input, textarea {
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+::placeholder {
+	color: black;
+	opacity: 1;
+  }
