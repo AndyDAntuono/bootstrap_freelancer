@@ -5,55 +5,28 @@
 }
 
 
-/*BACKGROUNDS COLORS*/
+/*CUSTOM BACKGROUND COLORS*/
 
-/*
+
 header, nav, .copyright {
 	background-color: rgba(44,62,80,255);
 }
-	*/
 
-.bg-red {
-	background-color: red;
+.start_bootstrap, .about, .btn {
+	background-color: rgba(26,188,156,255);
 }
 
-
-
-/*heights*/
-
-.col-height {
-	height: 100%;
+.info {
+	background-color: rgba(58,84,109,255);
 }
 
-/*
-.start_bootstrap-content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-}
+ /*
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;..");
+  }
 
-.start_bootstrap-content-h1 h1 {
-	text-align: center;
-}
-
-.star_and_stripes {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.star_and_stripes hr {
-	width: 100px;
-	color: white;
-}
-
-.star_and_stripes i {
-	color: white;
-}
-*/
+  NON RIESCO A CAPIRE COME SI  CAMBIA IL COLORE DEL TOGGLER!
+  */
 
 .lines-white::before, .lines-white::after {
 	content: '';
@@ -75,6 +48,8 @@ header, nav, .copyright {
 	vertical-align: middle;
 }
 
+/*start_bootstrap section*/
+
 ul {
 	list-style: none;
 }
@@ -83,15 +58,21 @@ ul li {
 	display: inline-block;
 }
 
+/*portfolio section*/
+
 .portfolio-content img{
 	border-radius: 25px;
 }
+
+/*about section*/
 
 .download {
 	border: 1px solid;
 	border-radius: 5px;
 	width: 125px;
 }
+
+/*contact_me section*/
 
 input, textarea {
 	outline: none;
@@ -107,6 +88,8 @@ input, textarea {
 	opacity: 1;
   }
 
+  /*info section*/
+
   .icon_border {
 	display: inline-block;
 	border: 1px solid white;
@@ -120,6 +103,6 @@ input, textarea {
   }
 
   a {
-	color: green;
+	color: rgba(26,188,156,255);
 	text-decoration: none;
   }
