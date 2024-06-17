@@ -105,3 +105,20 @@ input, textarea {
 	color: black;
 	opacity: 1;
   }
+
+  .icon_border {
+	display: inline-block;
+	border: 1px solid white;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+  }
+
+  .icon_border i {
+	vertical-align: middle;
+  }
+
+  a {
+	color: green;
+	text-decoration: none;
+  }
