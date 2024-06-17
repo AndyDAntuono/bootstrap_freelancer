@@ -7,10 +7,11 @@
 
 /*BACKGROUNDS COLORS*/
 
-
-.bg-blue {
-	background-color: blue;
+/*
+header, nav, .copyright {
+	background-color: rgba(44,62,80,255);
 }
+	*/
 
 .bg-red {
 	background-color: red;
